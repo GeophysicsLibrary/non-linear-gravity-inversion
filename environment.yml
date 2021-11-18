@@ -1,0 +1,10 @@
+name: non-linear-gravity-inversion
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9
+  - numpy
+  - matplotlib
+  - jupyter
+  - jupyterlab
