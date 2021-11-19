@@ -72,14 +72,19 @@ individual problems during the workshop.
    the Anaconda Navigator app (on Windows) or by running
    `jupyter lab` in a terminal (Mac/Linux). You browser should
    open with JupyterLab.
-1. Brush up on your coding skills with [Software Carpentry's
-   Introduction to Python](https://swcarpentry.github.io/python-novice-inflammation/)
-   lesson.
-
+1. Download a [zip archive of this repository](https://github.com/GeophysicsLibrary/non-linear-gravity-inversion/archive/refs/heads/main.zip)
+   and unzip it.
+1. In JupyterLab, navigate to the place where you unzipped the archive
+   and open the `gravity-inversion.ipynb` notebook.
+  
 We will be using [Jupyter Notebooks](https://jupyter.org/) to run our
 Python code and the libraries [numpy](https://numpy.org/),
 [scipy](https://www.scipy.org/), and [matplotlib](https://matplotlib.org/).
 Anaconda already comes with all of these installed.
+
+The forward modelling and some plotting utilities are in the 
+`cheatcodes.py` file. It's **very important that this file is in the
+same folder as the notebooks!**
 
 ## Workshop material
 
@@ -92,7 +97,11 @@ to this repository. In here, you'll find:
   in the workshop (not including solutions to exercises).
 * `gravity-inversion-solution.ipynb`: Same as the above but with the exercise
   solutions.
-* `gravity-inverse-problems-notes.pdf`: Notes and mathematical derivations.
+* `notes.pdf`: Notes and mathematical derivations.
+
+You may also want to brush up on your coding skills with 
+[Software Carpentry's Introduction to Python](https://swcarpentry.github.io/python-novice-inflammation/)
+lesson.
 
 ## License
 
