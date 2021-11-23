@@ -57,6 +57,18 @@ I will assume that you:
   vectors, solve linear systems, and make graphs/plots (in any language
   but Python or Matlab would be best)
 
+## Running the code
+
+You can run and experiment with the code for this tutorial
+on Binder (click on the badge): 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GeophysicsLibrary/non-linear-gravity-inversion/HEAD)
+
+**WARNING**: Binder sessions won't save your progress and may 
+disconnect at any point. Download and backup your notebook 
+frequently if you want to keep your changes.
+Alternatively, see below to setup your own computer and run 
+the code locally.
+
 ## Computer setup
 
 Since there is large component of live coding, participants will
